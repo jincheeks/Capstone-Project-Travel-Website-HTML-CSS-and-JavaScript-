@@ -1,0 +1,52 @@
+.arrow {
+    width: 250px;
+    height: 100px;
+    margin: 0 auto;
+    top: 0;
+    margin-top: 7.75%;
+    margin-right: 10%;
+    left: 0%;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.arrow:hover {
+    width: 275px;
+    height: 125px;
+}
+
+.artflex {
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    background-color: burlywood;
+    padding: 5px;
+    width: 80%;
+    height: 245px;
+    
+}
+
+article h1 {
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 3em;
+    padding-right: 2em;
+}
+
+.articleimgplace {
+    margin: 0 auto;
+    width: 40%;
+    height: 225px;
+    padding-right: 2em;
+    padding-bottom: 70px;
+}
+
+ .pstretch {
+    width: 95%;
+    padding-left: 2em;
+}
+
+article {
+    padding: 200px;
+    
+}

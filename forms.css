@@ -1,0 +1,33 @@
+form {
+    padding-left: 6em;
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
+.contactbackground {
+    background-image: url(photos/p-trans.png);
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    border: 2px solid red;
+}
+
+#message {
+    width: 30%;
+    margin-bottom: 0px;
+    padding-left: 4px;
+    padding-bottom: 105px;
+    
+}
+
+.naenae {
+    margin-bottom: 10.25%;
+    color: white;
+}
+
+select {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+button {
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}

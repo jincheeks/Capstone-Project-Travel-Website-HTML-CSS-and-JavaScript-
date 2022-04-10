@@ -1,0 +1,43 @@
+article img:hover {
+    height: 275px;
+    width: 27.5%;
+    box-shadow:  10px 10px 10px;
+}
+
+article img {
+    width: 25%;
+    margin:calc(12.5%/3);
+    height: 250px;
+    transition: 1s;
+}
+
+.whattodop {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+    position: relative;
+    margin-left: 580px;
+}
+
+.whattodoh2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.flex {
+    display: flex;
+    margin:calc(20%/4);
+    background-color: #AA998F;
+    overflow: visible;
+}
+
+.hangman {
+    margin-left: 375px;
+    margin-bottom: 125px;
+}
+
+section p {
+    padding-left: 15px;
+    font-size: 0.8em;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel to Iraq</title>
+    <link rel=stylesheet href="iraq.css">
+    <link rel=stylesheet href="nav.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <p> <a href="wheretogo.html">where to go</a></p>
+                <p><a href="whattodo.html">what to do</a></p>
+                <p><a href="planit.html">plan it</a></p>
+            </ul>
+        </nav>
+        <a href="travelhomepage.html">
+            <div> <img id="logo" src="photos/pp.png">
+        </a>
+        </div>
+        <!--logo https://canada-titan.blogspot.com/2020/07/travel-and-tour-logo-sample.html-->
+        <div><img id="mainphoto" src="photos/iraqcity.jpg">
+            <!--main photohttps://www.google.com/search?q=iraq+beautiful+places+city&tbm=isch&ved=2ahUKEwix55C3n87vAhURAzQIHRE7BFkQ2-cCegQIABAA&oq=iraq+beautiful+places+city&gs_lcp=CgNpbWcQAzoECAAQHjoGCAAQBRAeOgYIABAIEB5QtyZYxjVg8jZoA3AAeACAAT2IAb4DkgEBOJgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=7vldYLG4EZGG0PEPkfaQyAU&bih=625&biw=1366&rlz=1C1GCEA_enCA939CA939#imgrc=4LvMu7e3ElSI4M-->
+
+        </div>
+        <div id="rgbtext">
+            <h1> Travel Iraq</h1>
+            <b>
+
+                <script class="rgbtext">
+
+                    /*
+                    RAINBOW TEXT Script by Matt Hedgecoe (c) 2002
+                    Featured on JavaScript Kit
+                    For this script, visit http://www.javascriptkit.com
+                    */
+
+                    // ********** MAKE YOUR CHANGES HERE
+
+                    var text = "BOOK YOUR STAY NOW" // YOUR TEXT
+                    var speed = 80 // SPEED OF FADE
+
+                    // ********** LEAVE THE NEXT BIT ALONE!
+
+
+                    if (document.all || document.getElementById) {
+                        document.write('<span id="highlight">' + text + '</span>')
+                        var storetext = document.getElementById ? document.getElementById("highlight") : document.all.highlight
+                    }
+                    else
+                        document.write(text)
+                    var hex = new Array("00", "14", "28", "3C", "50", "64", "78", "8C", "A0", "B4", "C8", "DC", "F0")
+                    var r = 1
+                    var g = 1
+                    var b = 1
+                    var seq = 1
+                    function changetext() {
+                        rainbow = "#" + hex[r] + hex[g] + hex[b]
+                        storetext.style.color = rainbow
+                    }
+                    function change() {
+                        if (seq == 6) {
+                            b--
+                            if (b == 0)
+                                seq = 1
+                        }
+                        if (seq == 5) {
+                            r++
+                            if (r == 12)
+                                seq = 6
+                        }
+                        if (seq == 4) {
+                            g--
+                            if (g == 0)
+                                seq = 5
+                        }
+                        if (seq == 3) {
+                            b++
+                            if (b == 12)
+                                seq = 4
+                        }
+                        if (seq == 2) {
+                            r--
+                            if (r == 0)
+                                seq = 3
+                        }
+                        if (seq == 1) {
+                            g++
+                            if (g == 12)
+                                seq = 2
+                        }
+                        changetext()
+                    }
+                    function starteffect() {
+                        if (document.all || document.getElementById)
+                            flash = setInterval("change()", speed)
+                    }
+                    starteffect()
+                </script>
+            </b>
+        </div>
+    </header>
+
+    <section>
+        <img id="imgshow" src="photos/iraqifood.jfif">
+        <p id="textshow">Explore the food</p><img id="#" src="photos/culture.jpg">
+        <p id="textshow2">Explore the culture</p><img id="#" src="photos/banana.jpg">
+        <p id="textshow3">Experience the past</p><img id="#" src="photos/food.jfif">
+        <p id="textshow4">Experience the people</p>
+
+    </section>
+
+
+    <footer>
+        <p>made by jin</p>
+        <p><a href="contact.html">contact us</a></p>
+        <script>
+            /*date script*/
+
+            /*Current date script credit: 
+            JavaScript Kit (www.javascriptkit.com)
+            Over 200+ free scripts here!
+            */
+
+            var mydate = new Date()
+            var year = mydate.getYear()
+            if (year < 1000)
+                year += 1900
+            var day = mydate.getDay()
+            var month = mydate.getMonth() + 1
+            if (month < 10)
+                month = "0" + month
+            var daym = mydate.getDate()
+            if (daym < 10)
+                daym = "0" + daym
+            document.write("<small><font color='000000' face='Arial'><b>" + year + "/" + month + "/" + daym + "</b></font></small>")
+
+        </script>
+
+        <p align="center">
+            <font face="arial" size="-2">This free script provided by</font><br>
+            <font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
+                    Kit</a></font>
+        </p>
+    </footer>
+
+</body>
+
+</html>
